@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OfFromComponent } from './of-from/of-from.component';
+import { HeaderComponent } from './includes/header/header.component';
+import { PromiseComponent } from './promise/promise.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OfFromComponent
+    OfFromComponent,
+    HeaderComponent,
+    PromiseComponent
   ],
   imports: [
     BrowserModule,

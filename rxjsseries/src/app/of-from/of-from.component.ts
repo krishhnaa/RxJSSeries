@@ -14,7 +14,7 @@ export class OfFromComponent implements OnInit {
   ngOnInit(): void {
   }
 
-const ofObs : of('Krishna', 'Yallapanthula', 'Mohan');
+//const ofObs : of('Krishna', 'Yallapanthula', 'Mohan');
 
 
 
